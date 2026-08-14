@@ -1,4 +1,4 @@
-# 📊 Data Analytics – DecodeLabs Industrial Training
+# 📊 Data Analytic - Industrial Training
 
 ## 📌 Project Overview
 
