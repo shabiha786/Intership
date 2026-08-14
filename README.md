@@ -1,4 +1,4 @@
-# 📊 Data Analytic - Industrial Training
+# 📊 Data Analytics
 
 ## 📌 Project Overview
 
