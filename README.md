@@ -67,27 +67,41 @@ The second project focused on exploring the cleaned dataset and extracting meani
 Python | Pandas | NumPy | Matplotlib | Seaborn | SciPy | Jupyter Notebook
 
 ## 🔄 Overall Data Analytics Workflow
+
 📥 Raw Dataset
       │
       ▼
 🧹 Data Cleaning & Preparation
+
       │
       ├── Missing Values
+      
       ├── Duplicate Records
+      
       ├── Date Formatting
+      
       ├── Text Standardization
+      
       └── Data Validation
+      
       │
       ▼
 ✅ Cleaned Dataset
+
       │
       ▼
 📊 Exploratory Data Analysis
+
       │
       ├── Descriptive Statistics
+      
       ├── Distribution Analysis
+      
       ├── Outlier Detection
+      
       ├── Correlation Analysis
+      
       └── Categorical Analysis
+      
       │
       ▼
