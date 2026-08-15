@@ -82,12 +82,10 @@ Python | Pandas | NumPy | Matplotlib | Seaborn | SciPy | Jupyter Notebook
       
       ├── Text Standardization
       
-      └── Data Validation
-      
+      └── Data Validation 
       │
       ▼
 ✅ Cleaned Dataset
-
       │
       ▼
 📊 Exploratory Data Analysis
@@ -102,6 +100,5 @@ Python | Pandas | NumPy | Matplotlib | Seaborn | SciPy | Jupyter Notebook
       ├── Correlation Analysis
       
       └── Categorical Analysis
-      
       │
       ▼
