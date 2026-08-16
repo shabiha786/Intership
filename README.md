@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📊 Data Analytics Portfolio
+# 📊 Data Analytics
 
-### 🚀 DecodeLabs Industrial Training Program — Batch 2026
+### 🚀 DecodeLabs Industrial Training Program
 
 *Raw Data → Clean Data → Actionable Insights*
 
