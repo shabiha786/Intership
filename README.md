@@ -1,104 +1,119 @@
-# 📊 Data Analytics
+<div align="center">
+
+# 📊 Data Analytics Portfolio
+
+### 🚀 DecodeLabs Industrial Training Program — Batch 2026
+
+*Raw Data → Clean Data → Actionable Insights*
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+</div>
+
+---
 
 ## 📌 Project Overview
 
-This repository contains my **Data Analytics projects completed as part of the DecodeLabs Industrial Training Program – Batch 2026**.
+This repository contains my **Data Analytics projects**, completed as part of the **DecodeLabs Industrial Training Program – Batch 2026**.
 
-The projects demonstrate a step-by-step data analytics workflow, starting from **raw data cleaning and preparation** and progressing to **Exploratory Data Analysis (EDA)** to identify patterns, relationships, trends, distributions, and outliers.
+The projects walk through a complete, real-world analytics workflow — starting with **raw data cleaning and preparation**, and progressing to **Exploratory Data Analysis (EDA)** to uncover patterns, relationships, trends, distributions, and outliers in a 1,200+ record e-commerce dataset.
+
+> 💡 *The goal wasn't just to produce charts — it was to build a dataset and analysis that could be trusted by real business stakeholders.*
 
 ---
 
 ## 🎯 Objectives
 
-The overall objective of this training was to develop practical skills in:
+This training was designed to build practical, job-ready skills in:
 
-- Data Cleaning
-- Data Preparation
-- Data Validation
-- Descriptive Statistics
-- Exploratory Data Analysis
-- Data Visualization
-- Outlier Detection
-- Correlation Analysis
-- Categorical Data Analysis
-- Business-Oriented Interpretation
+| Category | Skills |
+|---|---|
+| 🧹 **Data Foundations** | Data Cleaning · Data Preparation · Data Validation |
+| 📈 **Statistical Analysis** | Descriptive Statistics · Correlation Analysis · Outlier Detection |
+| 📊 **Exploration & Visualization** | Exploratory Data Analysis · Data Visualization · Categorical Data Analysis |
+| 💼 **Business Translation** | Business-Oriented Interpretation of Insights |
 
 ---
 
 ## 📁 Projects
 
-### 🧹 Project 1 – Data Cleaning & Preparation
+### 🧹 Project 1 — Data Cleaning & Preparation
 
-The first project focused on preparing raw data for reliable analysis.
+Focused on transforming a raw, inconsistent dataset into a **reliable, analysis-ready** source of truth.
 
-#### Activities:
+**Activities**
+- 🔍 Inspected the raw dataset structure and quality
+- ❓ Identified missing / null values
+- 🔧 Handled missing values using logical imputation
+- 🔁 Checked and verified duplicate records & duplicate IDs
+- 📅 Corrected inconsistent date formats (standardized to ISO 8601)
+- 🔤 Standardized text and numerical data formatting
+- ✅ Performed full data validation
+- 📦 Delivered a cleaned dataset ready for analysis
 
-- Inspected the raw dataset
-- Identified missing/null values
-- Handled missing values
-- Checked duplicate records
-- Verified duplicate IDs
-- Corrected date formats
-- Standardized text and numerical data
-- Performed data validation
-- Prepared the cleaned dataset for further analysis
-
-**Tools:**  
-Python | Pandas | NumPy | Jupyter Notebook | Excel
+**🛠️ Tools:** `Python` · `Pandas` · `NumPy` · `Jupyter Notebook` · `Excel`
 
 ---
 
-### 📊 Project 2 – Exploratory Data Analysis
+### 📊 Project 2 — Exploratory Data Analysis (EDA)
 
-The second project focused on exploring the cleaned dataset and extracting meaningful insights.
+Focused on exploring the cleaned dataset to extract **meaningful, decision-ready insights**.
 
-#### Activities:
+**Activities**
+- 📐 Calculated descriptive statistics (mean, median, count, and more)
+- 📉 Studied numerical distributions and skewness
+- 🚩 Identified outliers using the **IQR method**
+- 🔗 Performed correlation analysis between key variables
+- 🗂️ Compared categorical variables across the dataset
+- 📊 Created clear, business-friendly data visualizations
+- 💼 Interpreted results from a business perspective
 
-- Calculated descriptive statistics
-- Analyzed mean, median, count and other statistical measures
-- Studied numerical distributions
-- Identified outliers using the IQR method
-- Performed correlation analysis
-- Compared categorical variables
-- Created data visualizations
-- Interpreted results from a business perspective
+**🛠️ Tools:** `Python` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `SciPy` · `Jupyter Notebook`
 
-**Tools:**  
-Python | Pandas | NumPy | Matplotlib | Seaborn | SciPy | Jupyter Notebook
+---
 
 ## 🔄 Overall Data Analytics Workflow
 
-📥 Raw Dataset
-      │
-      ▼
-🧹 Data Cleaning & Preparation
+```
+                     📥  RAW DATASET
+                            │
+                            ▼
+              🧹  DATA CLEANING & PREPARATION
+                            │
+        ┌───────────┬───────────┬───────────┬───────────┐
+        ▼           ▼           ▼           ▼           ▼
+    Missing      Duplicate    Date        Text       Data
+    Values       Records    Formatting  Standard.   Validation
+        │           │           │           │           │
+        └───────────┴───────────┴───────────┴───────────┘
+                            │
+                            ▼
+                    ✅  CLEANED DATASET
+                            │
+                            ▼
+              📊  EXPLORATORY DATA ANALYSIS
+                            │
+        ┌───────────┬───────────┬───────────┬───────────┐
+        ▼           ▼           ▼           ▼
+   Descriptive  Distribution  Outlier    Correlation  Categorical
+    Statistics    Analysis   Detection    Analysis     Analysis
+        │           │           │           │           │
+        └───────────┴───────────┴───────────┴───────────┘
+                            │
+                            ▼
+                🎯  ACTIONABLE BUSINESS INSIGHTS
+```
 
-      │
-      ├── Missing Values
-      
-      ├── Duplicate Records
-      
-      ├── Date Formatting
-      
-      ├── Text Standardization
-      
-      └── Data Validation 
-      │
-      ▼
-✅ Cleaned Dataset
-      │
-      ▼
-📊 Exploratory Data Analysis
+---
 
-      │
-      ├── Descriptive Statistics
-      
-      ├── Distribution Analysis
-      
-      ├── Outlier Detection
-      
-      ├── Correlation Analysis
-      
-      └── Categorical Analysis
-      │
-      ▼
+## 🧠 Key Takeaway
+
+> Good analytics isn't just about the final chart — it's about earning trust in the data first.
+> Cleaning, validating, and questioning a dataset before analysis is what separates a **reliable insight** from a **misleading one**.
+
+---
